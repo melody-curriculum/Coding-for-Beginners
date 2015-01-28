@@ -82,18 +82,51 @@ h1 {
 - Are selectors. 
 - They are used if you want a single, unique element. 
 
+HTML:
+
 ```
 <div id=“header”>
 	<h1>Welcome to my website</h1>	
 </div>
 ``` 
+CSS: hash/pound sign designate an id
+
+```
+#header{
+	text-align: center;
+	color: red;
+}
+```
+
 
 ####Classes:
+- Are selectors. 
+- Select an element with a specific class attribute. 
+
+HTML:
+
+```
+<div class=“paragraph”>
+     Here are my favorite hobbies:
+     skateboarding, scuba diving, and
+     riding motorcycles.
+</div> 
+
+```
+CSS: a period designates a class
+
+```
+.paragraph {
+	color: green;
+}
+
+```
+
+##How can you edit an existing webpage?
+- Hit "command+option+j" and this will open the developer tools. 
+- This can then be used as a “console” to test new code/change code and see what it looks like. 
 
 
-##Summary of my Lecture
-- Hey
-- How 
-- are
-- you
-	- jhfdhfjd
+##Summary
+- HTML and CSS work together. 
+- What do you think is happening on the back-end?
